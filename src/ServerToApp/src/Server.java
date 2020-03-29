@@ -22,7 +22,7 @@ public class Server {
 
                 String message = br.lines().collect(Collectors.joining());
 
-                System.out.println(message);
+                System.out.println("Message: " + message);
             }
         }
         catch (IOException e){
